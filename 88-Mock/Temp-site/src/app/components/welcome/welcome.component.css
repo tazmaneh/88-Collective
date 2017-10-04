@@ -1,0 +1,18 @@
+.mid-section {
+  /* padding-top:120px;
+   */
+}
+.logo {
+  padding-top: 30px;
+  position:fixed; 
+  left: 45%;
+  max-height: 25%;
+  max-width: 25%;
+}
+
+.Slogan {
+  font-family: "Raleway";
+  font-size: 3.2em;
+
+}
+

@@ -1,0 +1,14 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Raleway:100');
+
+
+body{
+   /* background-image: url('./assets/04-88BusinessCollective---Email-Banner-May17-5.jpg');
+    background-size: cover;
+   */    background-image: url('./assets/back2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height:100%;
+   
+}
