@@ -11,7 +11,6 @@ import { RouterModule, Routes } from "@angular/router";
 const routes: Routes = [
   { path: "", redirectTo: "/welcome", pathMatch: "full" },
   { path: "welcome", component: WelcomeComponent },
-  {path: "", redirectTo: "/carousel",pathMatch:"full"},
   {path:"carousel", component: CarouselComponent}
  
 ];
