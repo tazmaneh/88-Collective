@@ -10,8 +10,7 @@ import { RouterModule, Routes } from "@angular/router";
 
 const routes: Routes = [
   { path: "", redirectTo: "/welcome", pathMatch: "full" },
-  { path: "welcome", component: WelcomeComponent },
-  {path:"carousel", component: CarouselComponent}
+  { path: "welcome", component: WelcomeComponent }
  
 ];
 

@@ -3,16 +3,18 @@
    */
 }
 .logo {
-  padding-top: 30px;
-  position:fixed; 
-  left: 45%;
-  max-height: 25%;
-  max-width: 25%;
+  margin-top: 8%;
+  position: fixed;
+  left: 43%;
+  max-height: 35%;
+  max-width: 35%;
 }
 
 .Slogan {
-  font-family: "Raleway";
-  font-size: 3.2em;
-
+  font-family: "Raleway", sans-serif;
+  font-size: 25px;
+  font-weight: bolder;
+  position: fixed;
+  left: 37%;
+  padding-top: 24%;
 }
-
