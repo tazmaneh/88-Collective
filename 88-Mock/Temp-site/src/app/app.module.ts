@@ -4,7 +4,7 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
-import { CarouselComponent } from './components/carousel/carousel.component';
+
 import { ContactUsComponent } from './components/contact-us/contact-us.component';
 import { WelcomeComponent } from './components/welcome/welcome.component';
 import { ProfileComponent } from './components/profile/profile.component';
@@ -13,7 +13,6 @@ import { ProfileComponent } from './components/profile/profile.component';
   declarations: [
     AppComponent,
     NavbarComponent,
-    CarouselComponent,
     ContactUsComponent,
     WelcomeComponent,
     ProfileComponent

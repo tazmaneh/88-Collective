@@ -1,6 +1,6 @@
 <div class="container">
   <!-- Trigger the modal with a button -->
- 
+
 
   <!-- Modal -->
   <div class="modal fade" id="myModal" role="dialog">
@@ -8,32 +8,32 @@
     <div class="col-lg-offset-4 col-lg-4" id="panel">
       <h2>Contact Us</h2>
 
-      <form submit="">
+      <form action="../../../assets/send.php" method="POST">
 
         <div class="group">
-          <input type="" required name="frmNAme">
+          <input type="" required name="name" placeholder="Name">
           <span class="highlight"></span>
           <span class="bar"></span>
           <label>Name</label>
         </div>
 
         <div class="group">
-          <input type="text" required name="frmEmail">
+          <input type="text" required name="email" placeholder="Email">
           <span class="highlight"></span>
           <span class="bar"></span>
           <label>Email</label>
         </div>
 
         <div class="group">
-          <input type="text" required name="frmBody">
+          <input type="text" required name="msg" placeholder="Message">
           <span class="highlight"></span>
           <span class="bar"></span>
           <label>Message</label>
         </div>
         <div class="group">
-           <button type="submit" class="btn ">Send
-             <span class="glyphicon glyphicon-send"></span></button>
-           
+          <input type="submit" name="submit" class="btn "value="Send"/>
+       
+
         </div>
       </form>
     </div>
