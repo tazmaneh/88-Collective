@@ -4,8 +4,7 @@ if ($_POST['submit'] ) {
     /* Anything that goes in here is only performed if the form is submitted */
 
 $errors = '';
-$myemail = 'athandiletembile020@gmailcom';
-
+$myemail = 'hello@businesscollective.com';
 if(empty($_POST['name'])  || 
    empty($_POST['email']) || 
    empty($_POST['msg']))
