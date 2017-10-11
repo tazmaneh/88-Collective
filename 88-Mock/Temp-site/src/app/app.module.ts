@@ -1,4 +1,4 @@
-import { AppRoutingModule } from './app-routing.module';
+
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
@@ -18,7 +18,7 @@ import { ProfileComponent } from './components/profile/profile.component';
     ProfileComponent
   ],
   imports: [
-    BrowserModule,AppRoutingModule
+    BrowserModule
   ],
   providers: [],
   bootstrap: [AppComponent]
