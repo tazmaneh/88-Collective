@@ -21,8 +21,6 @@
 @media only screen and (max-width: 740px) {
    .Slogan{
   padding-top:40%;
-  
-
   }
   h1{
     font-size: 9.2em;
@@ -37,21 +35,6 @@
   }
 
 }
-@media only screen and (min-width: 765px) {
-  .Slogan {
-    padding-top: 42%;
-  }
-  h1 {
-    font-size: 9.2em;
-  }
-  .logo {
-    position: absolute;
-    margin: auto;
-    top: auto;
-    left: 32.5%;
-    max-height: 35%;
-    max-width: 35%;
-  }
-}
+
 
 
