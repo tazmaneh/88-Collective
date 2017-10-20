@@ -1,0 +1,59 @@
+#nav {
+  list-style-type: none;
+
+  overflow: hidden;
+  
+
+}
+#nav ul li {
+    list-style-type: none;
+ 
+  }
+#nav li a {
+  /*color:#484848;*/
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+.line > a:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color:white;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+  }
+  .line > a:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+/* Change the link color to #111 (black) on hover */
+
+.drop .drop-menu{
+  display: none;
+  margin: 0;
+}
+.drop:hover .drop-menu{
+  display: block;
+  transition: all 0.3s ease-in-out 0s;
+  }
+

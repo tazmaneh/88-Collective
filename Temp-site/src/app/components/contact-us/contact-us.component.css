@@ -144,5 +144,5 @@ input:focus ~ .highlight {
 #panel {
     border: 1px solid rgb(200, 200, 200);
     border-radius: 4px;
-    top: 50px;
+    top:20%;
 }
